@@ -275,6 +275,22 @@ hr {
   padding: 30px;
 }
 
+.photoframe img{
+  max-width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .photoframe img{
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photoframe img{
+    max-width: 95%;
+  }
+}
+
 .grow {
   background-color: white;
   border-radius: 15px;
