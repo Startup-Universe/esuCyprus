@@ -241,7 +241,6 @@ hr {
   display: inline-block;
   text-align: center;
   align-items: center;
-
 }
 
 .bcontainer:hover .bimage {
@@ -259,7 +258,7 @@ hr {
 .btext {
   opacity: 0.9;
   border-radius: 10px;
-  color: #00ffff;
+  color: blue;
   font-size: 15px;
   align-items: center;
   text-align: center;
@@ -277,7 +276,7 @@ hr {
 }
 
 .grow {
-  background-color: #00008B;
+  background-color: white;
   border-radius: 15px;
   box-shadow: 2px 1px 10px 5px #00ffff;
   margin: auto;
