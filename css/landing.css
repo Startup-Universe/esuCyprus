@@ -230,6 +230,7 @@ hr {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
   padding-bottom: 20px;
 }
 
@@ -241,6 +242,7 @@ hr {
   display: inline-block;
   text-align: center;
   align-items: center;
+
 }
 
 .bcontainer:hover .bimage {
@@ -253,12 +255,13 @@ hr {
 .bcontainer:hover .bmiddle {
   opacity: 1;
   padding-top: 8px;
+
 }
 
 .btext {
   opacity: 0.9;
   border-radius: 10px;
-  color: blue;
+  color: #00ffff;
   font-size: 15px;
   align-items: center;
   text-align: center;
@@ -275,24 +278,20 @@ hr {
   padding: 30px;
 }
 
-.photoframe img{
-  max-width: 70%;
-}
-
-@media screen and (max-width: 800px) {
-  .photoframe img{
-    max-width: 95%;
+@media screen and (max-width: 2000px) {
+  .photoframe img {
+    max-width: 70%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .photoframe img{
+  .photoframe img {
     max-width: 95%;
   }
 }
 
 .grow {
-  background-color: white;
+  background-color: #00008B;
   border-radius: 15px;
   box-shadow: 2px 1px 10px 5px #00ffff;
   margin: auto;
